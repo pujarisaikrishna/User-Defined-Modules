@@ -1,0 +1,59 @@
+def sum1(n1,n2):
+    res = n1 + n2
+    return res
+
+def sum2(n1,n2):
+    res1 = n1 - n2
+    return res1
+
+def sum3(n1,n2):
+    res2 = n1 * n2
+    return res2
+
+def sum4(n1,n2):
+    res3 = n1 / n2
+    return res3
+
+def sum5(n1,n2):
+    res4 = n1 ** n2
+    return res4
+
+
+person1 = {
+  "name": "James",
+  "age": 26,
+  "country": "New York"
+}
+
+
+--------------------------------------------------------------------------------------------------------------
+import myMathModule 
+
+n1=10
+n2=5
+
+result1 = myMathModule.sum1(n1,n2)
+print(result1)
+
+result2 = myMathModule.sum2(n1,n2)
+print(result2)
+
+result3 = myMathModule.sum3(n1,n2)
+print(result3)
+
+result4 = myMathModule.sum4(n1,n2)
+print(result4)
+
+result5 = myMathModule.sum5(n1,n2)
+print(result5)
+
+
+
+a = myMathModule.person1["age"]
+print(a)
+
+a = myMathModule.person1["country"]
+print(a)
+
+a = myMathModule.person1["name"]
+print(a)
